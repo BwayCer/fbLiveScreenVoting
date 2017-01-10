@@ -79,12 +79,12 @@ function ( htm ) {
     var markHel = {};
     var arrMain = htm.tag( markHel, function ( t ) {
         t.NodeList(
-            t( 'header', null,
+            t( 'header',
                 // YOUR LOGO URL HERE
                 t( 'img', { className: 'logo', src: '/image/logo.png' } ),
                 // YOUR TITLE HERE
-                t( 'h1', null, '起床氣象站' ),
-                t( 'h2', null, '何不說說今天的起床心情？' )
+                t( 'h1', '起床氣象站' ),
+                t( 'h2', '何不說說今天的起床心情？' )
             ),
             t( 'div', { className: 'tc wf' },
                 t( 'img', { className: 'emoji', src: '/image/emojis/like.png' } ),
